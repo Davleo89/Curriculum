@@ -140,11 +140,15 @@ span {
 }
 
 @media (min-width: 721px) {
-  .container {
-    flex-direction: row;
+  body{
+    display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: row;
   }
   .container1 {
     max-width: 300px;
