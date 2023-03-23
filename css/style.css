@@ -1,6 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
 
 body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: 0;
   padding: 0;
   font-family: "Roboto";
@@ -140,12 +143,6 @@ span {
 }
 
 @media (min-width: 721px) {
-  body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
   .container {
     display: flex;
     flex-direction: row;
@@ -170,11 +167,11 @@ span {
     border-radius: 50%;
     box-shadow: 0px 0px 21px 2px rgba(0, 0, 0, 0.65);
   }
-  .container2 .name{
+  .container2 .name {
     color: #00395f;
     font-size: 32px;
   }
-  .experience h2{
+  .experience h2 {
     padding-top: 25px;
   }
 }
